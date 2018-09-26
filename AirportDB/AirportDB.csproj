@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DFE0A179-B56B-4D75-9AC5-853CCEEB6F34}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>AirportDB</RootNamespace>
+    <AssemblyName>AirportDB</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FormAddCompany - Copy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAddCompany - Copy.Designer.cs">
+      <DependentUpon>FormAddCompany - Copy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAddFlight - Copy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAddFlight - Copy.Designer.cs">
+      <DependentUpon>FormAddFlight - Copy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAddPlane - Copy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAddPlane - Copy.Designer.cs">
+      <DependentUpon>FormAddPlane - Copy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAddTicket - Copy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAddTicket - Copy.Designer.cs">
+      <DependentUpon>FormAddTicket - Copy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAirport - Copy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAirport - Copy.Designer.cs">
+      <DependentUpon>FrmAirport - Copy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmFlight.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmFlight.Designer.cs">
+      <DependentUpon>FrmFlight.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTicketAndPlane.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTicketAndPlane.Designer.cs">
+      <DependentUpon>FrmTicketAndPlane.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AirportDataSet.cs">
+      <DependentUpon>AirportDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AirportDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AirportDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmAirport - Copy.resx">
+      <DependentUpon>FrmAirport - Copy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmFlight.resx">
+      <DependentUpon>FrmFlight.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTicketAndPlane.resx">
+      <DependentUpon>FrmTicketAndPlane.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\AirportDataSet.xsc">
+      <DependentUpon>AirportDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\AirportDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AirportDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\AirportDataSet.xss">
+      <DependentUpon>AirportDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\DataSources\LibraryData.Company.datasource" />
+    <None Include="Properties\DataSources\LibraryData.Flight.datasource" />
+    <None Include="Properties\DataSources\LibraryData.Plane.datasource" />
+    <None Include="Properties\DataSources\LibraryData.Ticket.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LibraryData\LibraryData.csproj">
+      <Project>{9eea9563-30f5-4655-8386-0860e606ab61}</Project>
+      <Name>LibraryData</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Forms\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

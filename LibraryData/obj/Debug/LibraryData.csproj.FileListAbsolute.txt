@@ -1,0 +1,27 @@
+C:\Users\lenovo\Source\Repos\AirportDB\LibraryData\bin\Debug\LibraryData.dll.config
+C:\Users\lenovo\Source\Repos\AirportDB\LibraryData\bin\Debug\LibraryData.dll
+C:\Users\lenovo\Source\Repos\AirportDB\LibraryData\bin\Debug\LibraryData.pdb
+C:\Users\lenovo\Source\Repos\AirportDB\LibraryData\obj\Debug\LibraryData.csprojResolveAssemblyReference.cache
+C:\Users\lenovo\Source\Repos\AirportDB\LibraryData\obj\Debug\LibraryData.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Source\Repos\AirportDB\LibraryData\obj\Debug\LibraryData.dll
+C:\Users\lenovo\Source\Repos\AirportDB\LibraryData\obj\Debug\LibraryData.pdb
+C:\Users\lenovo\Desktop\AirportDB\LibraryData\bin\Debug\LibraryData.dll.config
+C:\Users\lenovo\Desktop\AirportDB\LibraryData\bin\Debug\LibraryData.dll
+C:\Users\lenovo\Desktop\AirportDB\LibraryData\bin\Debug\LibraryData.pdb
+C:\Users\lenovo\Desktop\AirportDB\LibraryData\bin\Debug\EntityFramework.dll
+C:\Users\lenovo\Desktop\AirportDB\LibraryData\bin\Debug\EntityFramework.xml
+C:\Users\lenovo\Desktop\AirportDB\LibraryData\obj\Debug\LibraryData.csprojResolveAssemblyReference.cache
+C:\Users\lenovo\Desktop\AirportDB\LibraryData\obj\Debug\LibraryData.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Desktop\AirportDB\LibraryData\obj\Debug\LibraryData.csproj.CopyComplete
+C:\Users\lenovo\Desktop\AirportDB\LibraryData\obj\Debug\LibraryData.dll
+C:\Users\lenovo\Desktop\AirportDB\LibraryData\obj\Debug\LibraryData.pdb
+C:\Особисте\Getting This Done\2Матеріали по проекту\DB\AirportDB\LibraryData\bin\Debug\LibraryData.dll.config
+C:\Особисте\Getting This Done\2Матеріали по проекту\DB\AirportDB\LibraryData\bin\Debug\LibraryData.dll
+C:\Особисте\Getting This Done\2Матеріали по проекту\DB\AirportDB\LibraryData\bin\Debug\LibraryData.pdb
+C:\Особисте\Getting This Done\2Матеріали по проекту\DB\AirportDB\LibraryData\bin\Debug\EntityFramework.dll
+C:\Особисте\Getting This Done\2Матеріали по проекту\DB\AirportDB\LibraryData\bin\Debug\EntityFramework.xml
+C:\Особисте\Getting This Done\2Матеріали по проекту\DB\AirportDB\LibraryData\obj\Debug\LibraryData.csprojResolveAssemblyReference.cache
+C:\Особисте\Getting This Done\2Матеріали по проекту\DB\AirportDB\LibraryData\obj\Debug\LibraryData.csproj.CoreCompileInputs.cache
+C:\Особисте\Getting This Done\2Матеріали по проекту\DB\AirportDB\LibraryData\obj\Debug\LibraryData.csproj.CopyComplete
+C:\Особисте\Getting This Done\2Матеріали по проекту\DB\AirportDB\LibraryData\obj\Debug\LibraryData.dll
+C:\Особисте\Getting This Done\2Матеріали по проекту\DB\AirportDB\LibraryData\obj\Debug\LibraryData.pdb

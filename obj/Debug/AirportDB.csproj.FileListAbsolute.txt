@@ -1,0 +1,16 @@
+C:\Users\lenovo\Source\Repos\AirportDB\AirportDB\bin\Debug\AirportDB.exe.config
+C:\Users\lenovo\Source\Repos\AirportDB\AirportDB\bin\Debug\AirportDB.exe
+C:\Users\lenovo\Source\Repos\AirportDB\AirportDB\bin\Debug\AirportDB.pdb
+C:\Users\lenovo\Source\Repos\AirportDB\AirportDB\obj\Debug\AirportDB.csprojResolveAssemblyReference.cache
+C:\Users\lenovo\Source\Repos\AirportDB\AirportDB\obj\Debug\AirportDB.formAirport.resources
+C:\Users\lenovo\Source\Repos\AirportDB\AirportDB\obj\Debug\AirportDB.Properties.Resources.resources
+C:\Users\lenovo\Source\Repos\AirportDB\AirportDB\obj\Debug\AirportDB.csproj.GenerateResource.cache
+C:\Users\lenovo\Source\Repos\AirportDB\AirportDB\obj\Debug\AirportDB.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Source\Repos\AirportDB\AirportDB\obj\Debug\AirportDB.exe
+C:\Users\lenovo\Source\Repos\AirportDB\AirportDB\obj\Debug\AirportDB.pdb
+C:\Users\lenovo\Source\Repos\AirportDB\AirportDB\bin\Debug\LibraryData.dll
+C:\Users\lenovo\Source\Repos\AirportDB\AirportDB\bin\Debug\LibraryData.pdb
+C:\Users\lenovo\Source\Repos\AirportDB\AirportDB\bin\Debug\LibraryData.dll.config
+C:\Users\lenovo\Source\Repos\AirportDB\AirportDB\obj\Debug\AirportDB.csproj.CopyComplete
+C:\Users\lenovo\Source\Repos\AirportDB\AirportDB\obj\Debug\AirportDB.FrmFlight.resources
+C:\Users\lenovo\Source\Repos\AirportDB\AirportDB\obj\Debug\AirportDB.FrmTicketAndPlane.resources

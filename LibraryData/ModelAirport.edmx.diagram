@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="68700fabe4f34d95b293057c633745a6" Name="Diagram1">
+        <EntityTypeShape EntityType="AirportModel.Company" Width="1.5" PointX="0.75" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="AirportModel.Flight" Width="1.5" PointX="0.75" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AirportModel.Flight_Company" Width="1.5" PointX="3" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AirportModel.Flight_Plane" Width="1.5" PointX="3" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AirportModel.Flight_Ticket" Width="1.5" PointX="3" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AirportModel.Plane" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="AirportModel.Ticket" Width="1.5" PointX="0.75" PointY="10.125" IsExpanded="true" />
+        <AssociationConnector Association="AirportModel.FK_Flight_Company_Company" ManuallyRouted="false" />
+        <AssociationConnector Association="AirportModel.FK_Flight_Company_Flight" ManuallyRouted="false" />
+        <AssociationConnector Association="AirportModel.FK_Flight_Plane_Flight" ManuallyRouted="false" />
+        <AssociationConnector Association="AirportModel.FK_Flight_Ticket_Flight" ManuallyRouted="false" />
+        <AssociationConnector Association="AirportModel.FK_Flight_Plane_Plane" ManuallyRouted="false" />
+        <AssociationConnector Association="AirportModel.FK_Flight_Ticket_Ticket" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
